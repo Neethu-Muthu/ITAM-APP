@@ -63,21 +63,21 @@ const AdminDashboard = () => {
                 </div> */}
             </div>
             <div className="flex flex-row h-64 mt-6">
-                <div className="bg-pink-500 rounded-xl shadow-lg px-6 py-12 w-72 h-40 ml-20">
+                <div className="bg-pink-500 rounded-xl shadow-lg px-6 py-12 w-72 h-40 ml-60">
                     <Link to="/asset-inventory">
                         <p className="text-center py-3">Asset Inventory</p>
                     </Link>
                 </div>
-                <div className="bg-blue-500 rounded-xl shadow-lg mx-6 px-6 py-12 w-72 h-40 ml-30">
+                <div className="bg-blue-500 rounded-xl shadow-lg mx-6 px-6 py-12 w-72 h-40 ml-20">
                     <Link to="/user-management">
                         <p className="text-center py-3">User Management</p>
                     </Link>
                 </div>
-                <div className="bg-green-500 rounded-xl shadow-lg px-6 py-12 w-72 h-40 ml-30">
+                {/* <div className="bg-green-500 rounded-xl shadow-lg px-6 py-12 w-72 h-40 ml-30">
                     <Link to="/asset-track">
                         <p className="text-center py-3">Asset Tracking </p>
                     </Link>
-                </div>
+                </div> */}
                 <div className="bg-violet-500 rounded-xl shadow-lg px-6 py-12 w-72 h-40 ml-10">
                     <Link to="/maintenance">
                         <p className="text-center py-3">Maintenance Scheduling </p>

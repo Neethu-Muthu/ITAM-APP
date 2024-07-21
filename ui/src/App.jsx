@@ -18,9 +18,10 @@ import Employee from "./pages/Employee";
 import Technician from "./pages/Technician";
 import AddNewAssetPage from "./pages/AddNewAssetPage";
 import NewUser from "./pages/NewUser";
-import AssetTrackingPage from "./pages/AssetTrackingPage";
+// import AssetTrackingPage from "./pages/AssetTrackingPage";
 import AddAssetFormPage from "./pages/AddAssetFormPage";
 import EditAssetPage from "./components/EditAsset";
+import MaintenancePage from "./pages/MaintenancePage";
 // import AdminMaintenancePage from "./pages/AdminMaintenancePage";
 
 //import AddAssetPage from "./pages/AddAssetPage";
@@ -46,11 +47,11 @@ function App() {
                     <Route path="/technician-dashboard" element={<Technician/>}/>
                     <Route path="/add-newAsset" element={<AddNewAssetPage/>}/>
                     <Route path="/create-user" element={<NewUser/>}/>
-                    <Route path="/asset-track" element={<AssetTrackingPage/>}/>
+                    {/* <Route path="/asset-track" element={<AssetTrackingPage/>}/> */}
                     <Route path="/add-asset" element={<AddAssetFormPage/>}/>
                     <Route path="/edit-asset" element={<EditAssetPage/>}/>
                     {/* <Route path="/maintenance" element={<AdminMaintenancePage/>}/> */}
-                    {/* <Route path="/maintenance" element={<MaintenancePage/>}/> */}
+                    <Route path="/maintenance" element={<MaintenancePage/>}/>
 
                     
                 </Route>
